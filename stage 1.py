@@ -71,7 +71,7 @@ if 2<=A<=10000:
             print(((A%C)*(B%C))%C)
 
 
-#2588
+#2588 *
 a=int(input())
 b=input()
 

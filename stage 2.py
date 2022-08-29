@@ -61,7 +61,7 @@ if 0 <= H <= 23:
        else:
            print(23,M+15)
 
-#2525
+#2525 *
 a, b=map(int, input().split())
 c=int(input())
 a = a+c//60
@@ -76,7 +76,7 @@ if a >= 24:
 print(a, b)
 '''
 
-#2480
+#2480 *
 a, b, c=map(int, input().split())
 if a == b and b == c and a == c:
     print(10000+(a*1000))
