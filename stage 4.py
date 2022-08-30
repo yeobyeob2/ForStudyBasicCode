@@ -30,16 +30,39 @@ for i in m:
     list.append(i/max*100)
 average= sum(list)/n
 print(average)
-'''
-#8958
+
+#8958 *
 n=int(input())
-list=[]
-s=0
-a=0
 
 for i in range(n):
-    ox=input()
-    list.append(ox)
-    for j in list:
+    s = 0
+    a = 1
+    ox=list(input())
+    for j in ox:
+        if j == "O":
+            s += a
+            a += 1
+        else:
+            a=1
+    print(s)
 
-print(list)
+#4344 *
+c=int(input())
+av_list=[]
+
+for i in range(c):
+    n=list(map(int, input().split()))
+    av=sum(n[1:])/n[0]
+    c=0
+    for j in n[1:]:
+        if j > av:
+            c += 1
+    per=c/n[0]*100
+    print(f"{per:.3f}%")
+'''
+
+
+
+
+
+
