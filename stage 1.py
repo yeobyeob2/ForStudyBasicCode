@@ -1,4 +1,4 @@
-
+'''
 #2557
 print("Hello World")
 
@@ -27,6 +27,7 @@ A, B=map(int, input().split())
 print(A+B)
 print(A-B)
 print(A*B)
+print(A/B)
 print(A%B)
 
 #10926
@@ -80,3 +81,18 @@ a2=a*int(b[1])
 a3=a*int(b[0])
 a4=a*int(b)
 print(a1,a2,a3,a4,sep="\n")
+
+#10171
+print('|\_/|')
+print('|q p|   /}')
+print('( 0 )"""\ ')
+print('|"^"`    |')
+print('||_/=\\\\__|')
+'''
+#25083
+print("""         ,r\'\"7
+r`-_   ,\'  ,/
+ \\. \". L_r\'
+   `~\\/
+      |
+      |""")
